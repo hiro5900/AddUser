@@ -1,0 +1,31 @@
+body{
+     font-family: sans-serif;
+     font-size: medium;
+}
+
+.container{
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     width: 25vw;
+     padding: 15px;
+     justify-content: center;
+     border: 2px solid black;
+     border-radius: 5px;
+}
+
+.text-field{
+     margin: auto;
+     width: 250px;
+}
+
+#btn{
+     border-radius: 5px;
+     height: 28px;
+     cursor: pointer;
+     background-color: rgb(209, 206, 206);
+}
+
+#btn:hover{
+     background-color: gray;
+}
